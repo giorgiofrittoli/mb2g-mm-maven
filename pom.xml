@@ -6,7 +6,7 @@
 
     <groupId>it.frigir</groupId>
     <artifactId>mb2g-mm-maven</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${revision}</version>
 
     <modules>
         <module>jpa-entities</module>
@@ -24,6 +24,7 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <org.mapstruct.version>1.3.0.Final</org.mapstruct.version>
         <org.projectlombok.version>1.18.8</org.projectlombok.version>
+        <revision>1.0-SNAPSHOT</revision>
     </properties>
 
     <packaging>pom</packaging>
